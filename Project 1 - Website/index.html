@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tahsinocity</title>
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="welcome">
+        <div class="container">
+            <h1>welcome</h1>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe libero officiis magnam provident voluptatum atque fugit dolore sit quas obcaecati!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi qui adipisci, deleniti maiores sint libero pariatur hic, rerum et omnis temporibus eos, commodi neque minima placeat maxime eligendi nihil delectus!</p>
+        </div>
+        
+        <img src="fun2.svg" class="img1" alt="fun">   
+    </div>
+    
+     
+   
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("nav.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+</html>
